@@ -24,12 +24,7 @@ export default function App() {
         <Route exact path="/home">
           <Home />
         </Route>
-        {/* <Route exact path="/cocktail/:id">
-          <SingleCocktail />
-        </Route>
-        <Route exact path="*">
-          <Error />
-        </Route> */}
+        
       </Switch>
     </Router>
   );
